@@ -5,7 +5,9 @@
   - Implement a default constructor that initializes the graph to have no vertices and no edges
     - You also need to specify whether the graph is directed or undirected
   - Implement a method to add a vertex to the graph (addVertex)
+    - A vertex will be a single capital letter
   - Implement a method to add an edge to the graph (addEdge)
+    - An edge will be two capital letters
   - Implement a method to remove a vertex from the graph (removeVertex)
     - This should also remove any edges that are connected to that vertex
   - Implement a method to remove an edge from the graph (removeEdge)

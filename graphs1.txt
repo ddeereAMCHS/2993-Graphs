@@ -1,0 +1,16 @@
+add vertex H
+add vertex G
+add vertex F
+add vertex E
+add vertex A
+add vertex B
+add vertex C
+add vertex D
+add edge AB
+add edge CD
+add edge EF
+add edge GH
+add edge AG
+add edge CE
+add edge HD
+add edge AD

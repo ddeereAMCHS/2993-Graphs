@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "graphs1.txt, input1.txt",
+      "setup": "javac GraphTester.java",
+      "run": "java GraphTester",
+      "input": "graphs1.txt\r\ncommands1.txt",
+      "output": "V: [A, B, C, D, E, F, G, H], E: [AB, AD, AG, CD, CE, EF, GH, HD]\r\nA-D\r\nV: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, GH, HD]\r\nA-G-H-D\r\nnull\r\ntrue\r\ntrue\r\nfalse\r\nV: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, FE, GH, HD]\r\ntrue",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

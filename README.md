@@ -27,5 +27,6 @@
   - You must read in the line and perform the specified operation on the Graph object you created
 
 ***Example Input:***\
+input1.txt\
 ***Example Contents of input1.txt:***\
 ***Example Output:***

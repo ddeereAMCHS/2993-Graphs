@@ -66,13 +66,13 @@ add edge FE\
 print\
 is adjacent FE\
 ***Example Output:***\
-V: [A, B, C, D, E, F, G, H], E[AB, AD, AG, CD, CE, EF, GH, HD]\
+V: [A, B, C, D, E, F, G, H], E: [AB, AD, AG, CD, CE, EF, GH, HD]\
 A-D\
-V: [A, B, C, D, E, F, G, H], E[AB, AG, CD, CE, EF, GH, HD]\
+V: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, GH, HD]\
 A-G-H-D\
 null\
 true\
 true\
 false\
-V: [A, B, C, D, E, F, G, H], E[AB, AG, CD, CE, EF, FE, GH, HD]\
+V: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, FE, GH, HD]\
 true

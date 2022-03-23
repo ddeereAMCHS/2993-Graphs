@@ -1,0 +1,25 @@
+push 7
+push 12
+print
+push 19
+push 37
+print
+pop
+print
+peek
+size
+isEmpty
+push 72
+print
+pop
+pop
+pop
+print
+peek
+size
+isEmpty
+pop
+print
+peek
+size
+isEmpty

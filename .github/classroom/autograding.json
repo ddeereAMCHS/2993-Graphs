@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "input1.txt",
+      "setup": "javac StackTester.java",
+      "run": "java StackTester",
+      "input": "input1.txt",
+      "output": "[12, 7]\r\n[37, 19, 12, 7]\r\n[19, 12, 7]\r\n19\r\n3\r\nfalse\r\n[72, 19, 12, 7]\r\n[7]\r\n7\r\n1\r\nfalse\r\n[]\r\nnull\r\n0\r\ntrue",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

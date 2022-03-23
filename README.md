@@ -16,6 +16,7 @@
   - Implement a method that takes two vertices as parameters and returns whether or not the first vertex is adjacent to the second vertex (isAdjacent)
   - Implement a toString method that returns the graph with the vertices and edges printed out
     - Separate the elements with commas and surround each set of elements with square brackets
+    - Ex. V: [A, B], E: [AB]
 - Create a program called `GraphTester.java`
   - Create a Graph object
   - Prompt the user for a filename

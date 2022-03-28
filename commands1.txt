@@ -1,9 +1,6 @@
 print
-find path AD
 remove edge AD
 print
-find path AD
-find path AC
 is adjacent HD
 is adjacent EF
 is adjacent FE

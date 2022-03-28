@@ -3,7 +3,7 @@
 - Create a Graph class
   - You need to determine how you will store the underlying data
   - Implement a default constructor that initializes the graph to have no vertices and no edges
-    - You also need to specify whether the graph is directed or undirected
+    - The graph will be directed
   - Implement a method to add a vertex to the graph (addVertex)
     - A vertex will be a single capital letter
   - Implement a method to add an edge to the graph (addEdge)
@@ -21,7 +21,7 @@
     - Put the edges in alphabetical order
     - Ex. V: [A, B], E: [AB]
 - Create a program called `GraphTester.java`
-  - Create a Graph object which represents a directed graph
+  - Create a Graph object
   - Prompt the user for a filename
     - This file will contain only add commands to create the graph
   - Prompt the user for another filename

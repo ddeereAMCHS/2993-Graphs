@@ -11,9 +11,6 @@
   - Implement a method to remove a vertex from the graph (removeVertex)
     - This should also remove any edges that are connected to that vertex
   - Implement a method to remove an edge from the graph (removeEdge)
-  - Implement a method takes two vertices as parameters and returns the shortest path from the first vertex to the second (findPath)
-    - Separate the vertices with dashes
-    - Return null if there is no path from the first vertex to the second
   - Implement a method that takes two vertices as parameters and returns whether or not the first vertex is adjacent to the second vertex (isAdjacent)
   - Implement a toString method that returns the graph with the vertices and edges printed out
     - Separate the elements with commas and surround each set of elements with square brackets
@@ -28,7 +25,7 @@
     - This file will contain any commands for the graph 
   - Each line in the file will be a graph operation or the print command
     - For add and remove operations, do not print anything
-    - For findPath and isAdjacent operations, print what is returned
+    - For isAdjacent operations, print what is returned
     - For print operations, print the graph
   - You must read in the line and perform the specified operation on the Graph object you created
 
@@ -54,11 +51,8 @@ add edge HD\
 add edge AD\
 ***Example Contents of commands1.txt:***\
 print\
-find path AD\
 remove edge AD\
 print\
-find path AD\
-find path AC\
 is adjacent HD\
 is adjacent EF\
 is adjacent FE\
@@ -67,12 +61,18 @@ print\
 is adjacent FE\
 ***Example Output:***\
 V: [A, B, C, D, E, F, G, H], E: [AB, AD, AG, CD, CE, EF, GH, HD]\
-A-D\
 V: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, GH, HD]\
-A-G-H-D\
-null\
 true\
 true\
 false\
 V: [A, B, C, D, E, F, G, H], E: [AB, AG, CD, CE, EF, FE, GH, HD]\
 true
+
+- - - - - - - - - - - - 
+
+### Extra credit
+
+- Implement a method in the Graph class takes two vertices as parameters and returns the shortest path from the first vertex to the second (findPath)
+  - Separate the vertices with dashes
+  - Return null if there is no path from the first vertex to the second
+- In GraphTester, for the findPath operation, print what is returned 
